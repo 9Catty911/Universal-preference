@@ -15,7 +15,7 @@ struct Item {
         return [
             Item(data: .image(UIImage(named: "spring")!)),
             Item(data: .text("Однажды ранней весной...")),
-            Item(data: .list(names: "Весна", [-2,-1]))
+            Item(data: .list(names: "Весна", indexes: [-2,-1]))
         ]
     }
 }

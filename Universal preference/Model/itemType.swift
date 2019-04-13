@@ -9,7 +9,7 @@
 import UIKit
 
 enum ItemType {
-    case text(String)
-    case list(names: String,[Int])
     case image(UIImage)
+    case list(names: String, indexes: [Int])
+    case text(String)
 }
