@@ -11,11 +11,4 @@ import UIKit
 struct Item {
     let data: ItemType
     
-    static func loadSample() -> [Item] {
-        return [
-            Item(data: .image(UIImage(named: "spring")!)),
-            Item(data: .text("Однажды ранней весной...")),
-            Item(data: .list(names: "Весна", indexes: [-2,-1]))
-        ]
     }
-}
